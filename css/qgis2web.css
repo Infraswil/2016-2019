@@ -31,10 +31,17 @@
             border-bottom: unset!important;
             border-top: unset!important;
         }
-        .leaflet-popup-content{
-            max-height: 70vh;
-            max-width: 70vw;
-        }
+        .leaflet-popup-content {
+    	white-space: normal; 
+    	word-wrap: break-word; 
+    	overflow-wrap: break-word;
+    	width: auto; 
+	}
+
+	.leaflet-popup-content-wrapper {
+    	overflow-y: auto; 
+}
+
         .leaflet-popup-content.media{
             width: auto!important;
             height: auto!important;
